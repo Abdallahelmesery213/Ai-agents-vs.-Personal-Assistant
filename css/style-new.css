@@ -694,6 +694,7 @@ footer .social a i{
 }
 #rtl .agenda-screen .agenda-section .row .col-md-2 p{
   font-family: bejanBold;
+  font-size: 18px;
 }
 #rtl .agenda-screen .agenda-section ul li{
   font-family: bejanSemiBold;
