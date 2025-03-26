@@ -294,7 +294,54 @@ header .right-part .nav2 ul li a {
   color: #888686;
 }
 /* end counter */
+#rtl header .nav-1 li a, #rtl header .nav-2 li a {
+  font-family: bejanBold;
+  /* font-size: 18px; */
+}
 
+#rtl header .nav-1, #rtl header .nav-2 {
+  direction: rtl;
+}
+#rtl .text p,
+#rtl .text p a{
+  font-family: bejanSemiBold;
+  font-size: 18px;
+}
+#rtl .text p a{
+  color: var(--main-color);
+}
+#rtl .rtl.welcome-page p, #rtl .rtl.theme-page p , #rtl .rtl.welcome-page ul li{
+  font-family: bejanSemiBold;
+}
+#rtl .rtl.welcome-page ul{
+  margin-right: 32px;
+}
+#rtl .rtl.welcome-page p, #rtl .rtl.theme-page p, #rtl .rtl.welcome-page ul li {
+  font-size: 19px;
+  text-align: right;
+  direction: rtl;
+  margin-bottom: 8px;
+}
+#rtl .welcome-page strong, #rtl .theme-page strong, #rtl .welcome-page h4, #rtl .theme-page h4 {
+  font-family: bejanBold;
+}
+#rtl .rtl.welcome-page ul li{
+  list-style: disc;
+}
+#rtl .bnr .text{
+  position: relative;
+  margin-top: 20%;
+}
+
+#rtl .conference-profile h2{
+  padding-right: 16px; 
+  border-right: 8px solid var(--main-color);
+  border-left: none;
+  margin-bottom: 8px;
+}
+#rtl .conference-profile p{
+  font-family: bejanSemiBold;
+}
 .conference-profile h2{
   font-family: bruumBold;
   border-left: 8px solid var(--main-color);
@@ -626,11 +673,11 @@ footer .social a i{
   /* color: #ff0000; */
   font-family: bruumBold;
 }
-#rtl .agenda-screen .row1 p{
+#rtl .agenda-screen .row .col-12 p{
   font-family: bejanBold;
   font-size: 20px;
 }
-#rtl .agenda-screen .row2 p{
+#rtl .agenda-screen .row p{
   font-family: bejanSemiBold;
   font-size: 16px;
 }
@@ -644,6 +691,20 @@ footer .social a i{
   color: var(--main-color);
   font-family: bejanBold;
   font-size: 20px;
+}
+#rtl .agenda-screen .agenda-section .row .col-md-2 p{
+  font-family: bejanBold;
+}
+#rtl .agenda-screen .agenda-section ul li{
+  font-family: bejanSemiBold;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+#rtl .agenda-screen .agenda-section ul li strong{
+  font-family: bejanBold; 
+}
+#rtl .agenda-screen .agenda-section ul{
+  margin-right: -32px;
 }
 .agenda-screen .agenda-section .row .col-md-2 p{
   /* color: var(--main-color); */
